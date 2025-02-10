@@ -1028,7 +1028,7 @@ ul.email li i {
 }
 
 #title-motion {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 44px;
 }
 
@@ -1049,7 +1049,7 @@ ul.email li i {
 
 @media screen and (max-width: 634px) {
   #title-motion {
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 }
 
@@ -1057,5 +1057,11 @@ ul.email li i {
   .video-frame {
     padding: 20px;
     width: 360px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .videos {
+    margin: auto;
   }
 }
